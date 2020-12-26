@@ -118,6 +118,15 @@
     line-height: 65px;
   }
 
+  .founder .founder_details .founder_image{
+    width: 50%;
+  }
+
+  .founder .founder_details .founder_desc{
+    width: 50%;
+    padding-left: 20px;
+  }
+
   .founder .founder_details .founder_desc .founder_speech{
     font-size: 20px;
     line-height: 25px;
@@ -242,9 +251,23 @@
     width: 100%;
   }
 
+  .founder .founder_details .founder_image .f_img img{
+    height: 200px;
+  }
+
   .founder .founder_details .founder_desc{
     display: block;
     width: 100%;
+    padding-left:0;
+    margin-top: 20px;
+  }
+
+  .trustee_body .trustees .trustee_top .trustee_img .t_img img{
+    height: 200px;
+  }
+
+  .trustee_body .trustees .trustee .trustee_img img{
+    height: 200px;
   }
 }
 
