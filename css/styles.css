@@ -3,6 +3,10 @@ body{
     background: #E5E5E5;
 }
 
+.clearfix{
+    overflow: hidden;
+    clear: both;
+}
 
 /* header */
 .top_navigation{
@@ -438,4 +442,122 @@ footer .social_media .social_links ul li a i{
     position: absolute;
     right: 50px;
     bottom: 30px;
+}
+
+
+
+/*  Committee Page */
+
+.founder{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.founder h3{
+    font-family: 'Roboto' sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    color: #222;
+}
+
+.founder .founder_details .founder_image{
+    float: left;
+    width: 30%;
+}
+
+
+.founder .founder_details .founder_image .f_img img{
+    height: 285px;
+    border-radius: 5px;
+}
+
+
+.founder .founder_details .founder_desc{
+    float: right;
+    width: 65%;
+}
+
+
+.founder .founder_details .founder_desc .founder_speech{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #444;
+}
+
+.founder .founder_details .founder_desc .founder_intro{
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.founder .founder_details .founder_desc .founder_intro h2{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #222;
+}
+
+.founder .founder_details .founder_desc .founder_intro h5{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #444;
+    text-align: center;
+}
+
+.trustee_body{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.trustee_body h3{
+    font-family: 'Roboto' sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    color: #222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trustee_body .trustees .trustee_top{
+    width: 100%;
+    /* border: 1px solid #222; */
+    padding: 20px;
+}
+
+.trustee_body .trustees .trustee_top .trustee_img .t_img img{
+    height: 285px;
+    width: 70%;
+}
+
+.trustee_body .trustees .trustee{
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid #222;
+}
+
+
+.trustee_body .trustees .trustee .trustee_img{
+    float: left;
+    width: 60%;
+}
+
+.trustee_body .trustees .trustee .trustee_img img{
+    height: 285px;
+    padding-right: 20px;
 }
