@@ -11,7 +11,8 @@ body{
 /* header */
 .top_navigation{
     width: 100%;
-    background-color: #364F6B;
+    background-color: #2D4662;
+
 }
 
 .top_navigation a{
@@ -19,15 +20,23 @@ body{
     color: #fff;
 }
 
+.main_navigation{
+    background-color: #2D4662;
+}
 
-.top_navigation a img{
-    height: 120px;
-    padding: 15px;
+.main_navigation a{
+    color: #fff;
+}
+
+.main_navigation a img{
+    height: 100px;
+    padding: 10px;
 }
 
 .top_header_icons{
     float: right;
-    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .top_header_icons ul li a{
@@ -52,7 +61,45 @@ body{
 }
 
 
+/* Home page */
 
+.about_content p{
+    font-family: 'Roboto' sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.about_image img:hover{
+    transform: scaleY(1.1);
+    transition: 0.8s ease-in-out all;
+    /* padding-right: 10px; */
+}
+
+
+.vision_mission h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.vision_mission h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #2D4662;
+}
+
+
+.gallery h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.gallery h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #2D4662;
+}
 
 /* news page */
 .news_header{
@@ -100,14 +147,25 @@ body{
     width: 100%;
 }
 
+.news_breadcrumb .breadcrumb .news_brd_overlay{
+    background-color: rgba(255,255,255, 0.4);
+    width: 60%;
+    height: 70%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
 
 .news_breadcrumb .breadcrumb h2{
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 70px;
-    line-height: 82px;
+    font-size: 50px;
+    line-height: 70px;
     /* identical to box height */
     color: #FFFFFF;
     text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
@@ -121,16 +179,18 @@ body{
 .news_breadcrumb .breadcrumb h6{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #FFFFFF;
+    color: #1A2B84;
     font-weight: 500;
     font-size: 42px;
-    line-height: 49px;
+    line-height: 55px;
     letter-spacing: 0.01em;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -70%);
     text-align: center;
+    margin-top: 30px;
+    text-transform: capitalize;
 }
 
 
@@ -244,15 +304,13 @@ body{
 
 footer{
     width: 100%;
-    background-color: #222;
+    background-color: #072240;
     margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-footer .footer_links{
-    margin-top: 80px;
-}
+
 footer .footer_links ul li{
     text-align: center;
 }
@@ -295,6 +353,7 @@ footer .social_media .social_media_headline p{
 
 footer .social_media .social_links{
     width: 100%;
+    margin-top: 50px;
 }
 
 
@@ -324,7 +383,7 @@ footer .social_media .social_links ul li a i{
 
 }
 .copyright p{
-    background-color: #444;
+    background-color: #2D4662;
     color: #f2f2f2;
     text-align: center;
     padding-top: 10px;
