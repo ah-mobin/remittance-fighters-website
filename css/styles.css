@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@300;500&display=swap');
-body{
-    background: #E5E5E5;
-}
 
 .clearfix{
     overflow: hidden;
@@ -12,12 +9,45 @@ body{
 .top_navigation{
     width: 100%;
     background-color: #2D4662;
-
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
 }
 
-.top_navigation a{
+.top_navigation .left_nav{
+    float: left;
+    margin-left: 50px;
+}
+
+.top_navigation .right_nav{
+    float: right;
+    margin-right: 50px;
+}
+
+.top_navigation .right_nav .lang{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.top_navigation .right_nav .lang option{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+.top_navigation .left_nav a{
     text-decoration: none;
     color: #fff;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 18px;
+
 }
 
 .main_navigation{
@@ -79,26 +109,38 @@ body{
 .vision_mission h5{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    color: #364F6B;
 }
 
 .vision_mission h2{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 800;
-    color: #2D4662;
+    color: #F22613;
+}
+
+.vision_mission_content ol li{
+    font-style: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 10px;
 }
 
 
-.gallery h6{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+.gallery{
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 .gallery h3{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 800;
-    color: #2D4662;
+    color: #444;
+}
+
+.gallery img{
+    border-radius: 20px;
 }
 
 /* news page */
